@@ -8,7 +8,7 @@
 	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script src="${resource(dir: 'js', file: 'app.js')}"></script>
 	<link href="${resource(dir: 'css', file: 'style.css')}" rel="stylesheet" type="text/css" />
-	<link href='http://fonts.googleapis.com/css?family=Lato:100,400' rel='stylesheet' type='text/css'>
+	<link href='//fonts.googleapis.com/css?family=Lato:100,400' rel='stylesheet' type='text/css'>
 </head>
 <body>
 <div id="wrapper">
