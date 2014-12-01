@@ -1,6 +1,9 @@
 <html>
 <head>
 	<title>Stupify.io</title>
+	<script>
+		var baseUrl = '${request.getContextPath()}';
+	</script>
 	<script type="text/javascript" src="//api.filepicker.io/v1/filepicker.js"></script>
 	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script src="${resource(dir: 'js', file: 'app.js')}"></script>

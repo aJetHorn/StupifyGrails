@@ -10,7 +10,7 @@ $(document).ready( function () {
 			increaseVelocity();
 			addColors();
 			setTimeout(function(){
-				$.post('/Stupify.io/stupify/execute', {data: rawText}, function(data) {
+				$.post(baseUrl + '/stupify/execute', {data: rawText}, function(data) {
 					slowVelocityEase();
 					resetColors();
 					setTimeout(function() {
